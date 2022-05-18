@@ -1,0 +1,149 @@
+*,
+::after,
+::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: outfit;
+    src: url(../assets/fonts/Outfit/static/Outfit-Regular.ttf);
+}
+
+body {
+    font-family: outfit;
+}
+
+nav {
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color:black ;
+    text-decoration: none;
+}
+
+.nav-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0.48px;
+    color: #222222;
+}
+
+.auth {
+    margin-left: auto;
+    
+}
+
+/* ============ HERO =========== */
+.hero-wrapper {
+    margin-top: 80px;
+}
+
+.supersubtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+    letter-spacing: 0.48px;
+    color: #82CBAC;
+}
+
+.supertitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 0.48px;
+    color: #2F2F2F;
+}
+
+.supersuptitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+    color: #2F2F2F;
+}
+
+.subtitle {
+    margin-top: 45px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.48px;
+    color: #FF7F96;
+}
+
+.title {
+    max-width: 345px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 0.48px;
+    color: #2F2F2F;
+}
+
+.suptitle {
+    max-width: 477px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+    color: #2F2F2F;
+}
+
+.megasupertitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0.48px;
+    color: #2F2F2F;
+}
+
+.smalltitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+    color: #2F2F2F;
+}
+
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0rem;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+}
+
+.footer-nav__item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0.48px;
+    color: #2F2F2F;
+    margin-top: 8px;
+}
